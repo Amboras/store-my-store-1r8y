@@ -4,18 +4,22 @@
 
 @layer base {
   :root {
-    --background: 40 20% 98%;
-    --foreground: 0 0% 10%;
-    --muted: 40 10% 94%;
-    --muted-foreground: 0 0% 45%;
-    --accent: 35 40% 50%;
+    /* Polygons — warm cream + deep navy + copper */
+    --background: 38 40% 97%;
+    --foreground: 215 45% 12%;
+    --muted: 38 20% 92%;
+    --muted-foreground: 215 15% 40%;
+    --accent: 22 55% 50%;
     --accent-foreground: 0 0% 100%;
-    --border: 40 10% 88%;
-    --ring: 35 40% 50%;
-    --primary: 0 0% 10%;
-    --primary-foreground: 0 0% 98%;
+    --border: 38 20% 86%;
+    --ring: 22 55% 50%;
+    --primary: 215 45% 12%;
+    --primary-foreground: 38 40% 97%;
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
+
+    --brand-primary: hsl(215 45% 12%);
+    --brand-secondary: hsl(22 55% 50%);
 
     /* Brand colors (dynamically injected from Store.metadata.brand) */
     /* Access in CSS: var(--brand-primary), var(--brand-secondary) */
