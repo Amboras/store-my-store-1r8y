@@ -254,7 +254,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid sm:grid-cols-2 gap-6 lg:gap-8">
-            {products.slice(0, 2).map((product) => {
+            {products.slice(0, 2).map((product: (typeof products)[number]) => {
               const firstVariant = (product.variants?.[0] as unknown) as
                 | {
                     calculated_price?: {
